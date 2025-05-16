@@ -1,0 +1,20 @@
+# Simple Unit Converter: Kilometers to Miles
+
+# Conversion factor
+KM_TO_MILES = 1 / 1.60934
+
+# Ask the user for input
+user_input = input("Enter a distance in kilometers: ")
+
+try:
+    # Try converting input to a float
+    kilometers = float(user_input)
+    
+    # Calculate miles
+    miles = kilometers * KM_TO_MILES
+
+    # Print the result
+    print(f"{kilometers} kilometers is approximately {miles:.2f} miles.")
+except ValueError:
+    # Handle the case where input is not a valid number
+    print("Invalid input. Please enter a number.")
