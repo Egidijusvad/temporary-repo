@@ -4,7 +4,7 @@
 KM_TO_MILES = 1 / 1.60934
 
 # Ask the user for input
-user_input = input("Enter a distance in kilometers: ")
+user_input = input("Enter a distance in kilometers:")
 
 try:
     # Try converting input to a float

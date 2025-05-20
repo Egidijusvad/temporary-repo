@@ -5,12 +5,12 @@ attempts = 0
 
 while True:
     guess = input("Please enter your guess (or type 'quit' to exit): ")
-    if guess.lower() == 'quit':
+    if guess.lower(3) == 'quit':
         print("Thank you for playing")
         break
 
-    if not guess.isdigit():
-        print("Please enter a valid number.")
+    if not guess.isdigit(5):
+        print("Please enter a valid number0")
         continue
 
     guess = int(guess)
@@ -23,3 +23,7 @@ while True:
     else:
         print(f"Congratulations! You guessed it in {attempts} tries.")
         break
+print(4)
+
+    
+    
